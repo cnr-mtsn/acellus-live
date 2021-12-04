@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+	@apply bg-white max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center lg:items-start gap-4 md:justify-between;
+}
+.footer {
+	@apply bg-white inset-y-0;
+}
